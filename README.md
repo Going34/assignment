@@ -4,6 +4,10 @@ Then, go into the frontend folder (the main project folder) and run the "npm i" 
 
 Next, go into the backend folder and run "npm i" to install the backend dependencies. After that, in both the frontend and backend folders, run the npm run dev command to start the project.
 
+Change this backend env; it needs to change 
+DB_USER=postgres
+DB_PASSWORD=admin
+
 When the backend starts, it will automatically create the database in PostgreSQL.
 
 Now open the frontend in your browser, and you will land on the login page. We have created two demo users so you can try it:
